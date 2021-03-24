@@ -25,7 +25,25 @@
 
  */
 
+	echo pow(3,2);
+	echo "<br>"."<hr>";
+
+	$string = "This is a string";
+	echo strtoupper($string) . "<br>";
+	echo strtolower($string) . "<br>" ."<hr>";
+
+	$values = ['sadfa' ,3243,'342432',$string];
+	$found = in_array($string, $values);
+
 	
+
+	if($found){
+		echo "we found it!";
+	}else{
+		echo "FAILED!";
+	}
+
+
 ?>
 
 

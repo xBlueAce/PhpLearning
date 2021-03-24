@@ -22,6 +22,12 @@
 
 
  */
+function Calculation($num1, $num2){
+	$sum = $num1 + $num2;	
+	return $sum;
+}
+echo "test" . "<br>";
+echo Calculation(1,3);
 
 	
 ?>
