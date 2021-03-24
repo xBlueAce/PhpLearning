@@ -25,13 +25,49 @@
 
  */
 
+$varTest = 3;
+if($varTest == 3){
+	echo "I love PHP!\n";
+	echo $varTest;
 	
+}
+elseif($varTest == 4){
+	echo "I love PHP!\n";
+	echo $varTest;
+	
+}
+else{
+	echo "this is else";
+}
+	echo "<hr>";
+
+for($counter = 0; $counter <10 ; $counter++){
+	echo $counter . " ";
+}
+echo "<br>";
+$counter =2;
+switch($counter){
+	case 1:
+		echo "This is case 1 <br>";
+		break;
+	case 2:
+		echo "This is case 2 <br>";
+	case 3:
+		echo "this is case 3\n";
+		break;
+	case 4:
+		echo "this is case 4\n";
+	case 5:
+		echo "this is case 5\n";
+		break;
+	default:
+		echo "no cases\n";
+}
+
+
+
+
 ?>
-
-
-
-
-
 
 </article><!--MAIN CONTENT-->
 	
